@@ -1,113 +1,95 @@
-import Image from 'next/image'
+import { BlogCard } from "@/components/blog-card";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowRightIcon } from "@radix-ui/react-icons";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+const posts = [
+ {
+  id: 1,
+  title: "Wpływ alkoholu na organizm człowieka",
+  slug: "wplyw-alkoholu-na-organizm-czlowieka",
+  date: "2021-04-05",
+  shortDescription:
+   "Alkohol jest substancją psychoaktywną, która wpływa na organizm człowieka. Wpływ alkoholu na organizm człowieka jest zależny od wielu czynników, takich jak płeć, waga, wiek, stan zdrowia, ilość wypitego alkoholu, czas trwania spożywania alkoholu, czy też spożywanie alkoholu na czczo.",
+  image: "/images/alkohol.jpg",
+ },
+ {
+  id: 2,
+  title: "Post 2",
+  slug: "post-2",
+  date: "2021-04-06",
+  shortDescription: "This is the second post.",
+  image: "/images/post2.jpg",
+ },
+ {
+  id: 3,
+  title: "Post 3",
+  slug: "post-3",
+  date: "2021-04-07",
+  shortDescription: "This is the third post.",
+  image: "/images/post3.jpg",
+ },
+ {
+  id: 4,
+  title: "Post 4",
+  slug: "post-4",
+  date: "2021-04-08",
+  shortDescription: "This is the fourth post.",
+  image: "/images/post4.jpg",
+ },
+ {
+  id: 5,
+  title: "Post 5",
+  slug: "post-5",
+  date: "2021-04-09",
+  shortDescription: "This is the fifth post.",
+  image: "/images/post5.jpg",
+ },
+];
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+export default function HomePage() {
+ return (
+  <div className="max-w-4xl m-auto grid">
+   <div className="grid grid-cols-2 gap-16 my-20 items-center">
+    <Image
+     alt="Featured article"
+     className="w-full h-auto rounded-lg"
+     height="400"
+     src="/placeholder.svg"
+     style={{
+      aspectRatio: "357/200",
+      objectFit: "cover",
+     }}
+     width="640"
+    />
+    <div>
+     <p className="text-xs mt-4 text-gray-600">20 stycznia 2024 • 6 min czytania</p>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+     <h2 className=" text-2xl font-bold">Najważniejsze lekcje z książki "Finansowy Ninja"</h2>
+     <p className="mt-4 text-gray-700 text-sm">
+      Buty do codziennego biegania z bardzo dużą amortyzacją - przegląd wiosna 2024 Uniwersalność, to słowo klucz, które najlepiej opisuje te buty. To
+      najbardziej wszechstronne buty do biegania przede wszystkim po twardych, głównie miejskich nawierzchniach. Jednocześnie przyzwyczajone poradzą
+      sobie też z wygodnego asfaltu zbiegiesz na szutrowe drogi. Doskonale sprawdzają się zarówno podczas codziennych, spokojnych treningów, jak i
+      podczas treningów o większej intensywności.
+     </p>
+     <Link href="/posts/asd" className="mt-4 text-sm font-semibold text-orange-500 hover:underline flex gap-2 items-center">
+      Czytaj dalej <ArrowRightIcon />
+     </Link>
+    </div>
+   </div>
+   <section className="grid grid-cols-3 gap-4">
+    {posts.map((post) => (
+     <BlogCard key={post.id} {...post} />
+    ))}
+   </section>
+   <div className="mt-10 grid gap-10 md:grid-cols-2 lg:gap-10 xl:grid-cols-3 ">
+    {/* {posts.slice(2, 14).map((post) => (
+       <PostList key={post.id} post={post} aspect="square" />
+      ))} */}
+   </div>
+   <div className="mt-10 flex justify-center"></div>
+  </div>
+ );
 }
