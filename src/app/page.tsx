@@ -6,7 +6,7 @@ export default function HomePage() {
  const featuredPost = allPosts[0];
 
  return (
-  <div className="max-w-6xl m-auto p-6 md:p-0 grid">
+  <div className="max-w-6xl m-auto p-2 md:p-0 grid">
    <div className="mb-16">
     <BlogCard featured {...featuredPost} />
    </div>
