@@ -146,13 +146,13 @@ Po biegu, w sporym bólu w lewym kolanie, które w tamtym czasie często o sobie
 
 Ponoć komentator przy mecie mówił do mnie przez mikrofon, żebym zapiął koszulkę - totalnie nic z tego nie pamiętam - byłem w innym miejscu. 
 
-![Timing July .jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/9b73bbef-bfa7-4e78-ae7f-7b4a0c9e5f19/Timing_July_.jpg)
+![Timing July .jpg](/images/p-1.png)
 
 Uczucie, które poczułem po wbiegnięciu na metę i zobaczeniu czasu, jest nie do opisania i życzę każdemu, aby doświadczył czegoś takiego.
 
 Na screenie jest błąd z czasem biegu, ale bieg zakończyłem z tempem w okolicach **6:00/km** - dość marnie.
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/f67748b0-1907-4d6e-b233-2888a583bab8/Untitled.png
+![](/images/p-2.png)
 
 Zaraz po przekroczeniu mety wiedziałem, że muszę tam wrócić za rok i poprawić ten wynik. Już teraz jestem zapisany na lipcowe zawody w *Bydzi* gdzie będę walczył o lepszy wynik.
 
@@ -172,7 +172,7 @@ Zdecydowanie najbardziej jestem zadowolony z trasy Bydgoszcz → Poznań, któr�
 
 Któregoś wieczora po powrocie z wyjazdu stwierdziłem, że chcę przejechać **200km jednego dnia**. Nie pamiętam już, co mnie do tego zainspirowało, ale jak tylko ta myśl pojawiła się w mojej głowie, nie mogłem tego odpuścić. Wstałem następnego dnia rano, spakowałem w plecak potrzebne rzeczy i o 6:20 wyjechałem w kierunku jeziora Malta w Poznaniu. Nie po to, aby przejechać przez znajdujący się obok park i pojechać na północ np. w kierunku Gniezna. Zamierzałem przejechać te 200km jeżdżąc wokół tego jeziora. Wtedy jeszcze na tym samym góralu, ze średnią prędkością 16 km/h **po 12 godzinach 25 minutach** **i 43 sekundach** przejechałem 200km. Fizycznie naprawdę mogło być gorzej, ale mentalnie? **Nigdy tego nie zapomnę.**
 
-![IMG_4796.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/060e5c22-5dc4-4d20-a279-16557cd31306/IMG_4796.jpeg)
+![IMG_4796.jpeg](/images/p-3.jpeg)
 
 ### Runmageddon
 
@@ -182,7 +182,7 @@ Pierwszy bieg w kwietniu był tzw. rekrutem, czyli **6km i 30 przeszkód**. Był
 
 Drugi bieg był już w formule Classic - **12km i 50 przeszkód**. Niestety ten bieg biegliśmy w niepełnym składzie, mimo to było to świetne wyzwanie. Po nim jednak stwierdziłem, że w uzyskaniu lepszych rezultatów dużo blokowała mnie moja wydolność. Utrzymanie tempa poniżej 5min/km było sporym problemem. 3 dni po tamtym runmageddonie rozpocząłem 13-tygodniowy plan treningowy skoncentrowany na dystansie 10km. Po tamtym runmageddonie wiedziałem też, że następny dystans będzie już to formuła Hardcore, czyli **półmaraton + 70 przeszkód**, które pewnie jako Totalne Koty zrobimy w tym roku.
 
-![IMG_4920.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/d8d4c7d7-cfd2-404e-9094-fe5d8049cc20/IMG_4920.jpeg)
+![IMG_4920.jpeg](/images/p-4.jpeg)
 
 ### Góry
 
@@ -190,11 +190,11 @@ W tym roku po raz pierwszy zdobyłem szczyty polskich gór. Choć nigdy wcześni
 
 Babia Góra to pierwszy szczyt, który zdobyłem dwukrotnie. Mimo że podejście jest raczej jednym z łatwiejszych, widoki są niesamowite, zarówno na szczycie, jak i na punktach widokowych w trakcie wędrówki. Drugie wejście było wyjątkowe, ponieważ postanowiliśmy wspiąć się na szczyt tak wcześnie, aby zobaczyć wschód słońca. Uważam, że to jest jedno z doświadczeń, które każdy powinien **przeżyć i zobaczyć**.
 
-![IMG_4749.jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/217cea67-b834-4791-867a-c1c2a7c50bfd/IMG_4749.jpeg)
+![IMG_4749.jpeg](/images/p-5.jpeg)
 
 2 tygodnie później ponownie wspinałem się w polskich górach - tym razem na Rysy. W nieco innym składzie, bo z kotami. O godzinie 4:30 rozpoczęliśmy nasze wejście, a 5 godzin później, o 9:30, byliśmy już na zimnym i wietrznym szczycie. Była to świetna przygoda, aby w takim składzie przeżyć wspólnie coś takiego. Na pewno nie były to nasze ostatnie wyzwania górskie - mamy nadzieję, że kolejne będą jeszcze trudniejsze i bardziej wymagające.
 
-![IMG .jpeg](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/6a4c9f1d-b628-4562-a1da-6f98665f3e22/IMG_.jpeg)
+![IMG .jpeg](/images/p-7.jpeg)
 
 ### Bieganie
 
@@ -202,7 +202,7 @@ Na bieganie poświęciłem w tym roku około 100 godzin oraz **przebiegłem 1002
 
 Obliczyłem sobie średnią tygodniową i dopiero w połowie grudnia postanowiłem, że wykalkuluję to z głową. Największym problemem nie był wcale brak czasu, czy brak chęci. Zdecydowanie moją największą obawą było to, że jeśli z 180km przebiegniętych w listopadzie zwiększę dystans do 250km w grudniu, to najzwyczajniej w świecie po drodze się rozwalę. Nie musiała spotkać mnie wielka kontuzja, nawet mały problem z kolanem, który blokowałby mi bieganie dłuższych dystansów, przekreśliłby cel. Tym samym postanowiłem, że rozpiszę to z głową, dodając tyle czasu na regenerację, ile mogłem.
 
-![IMG_5117.JPG](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/6873e50a-d654-42cf-b5ed-2a6d406e5aa3/IMG_5117.jpg)
+![IMG_5117.JPG](/images/p-8.jpg)
 
 Chociaż plan ten uległ kilkukrotnym zmianom w trakcie, jestem przekonany, że bez niego wszystko mogło się nie udać. Jestem niesamowicie dumny, że podjąłem takie wyzwanie i go zrealizowałem. To zdecydowanie jedno z największych wyzwań w moim życiu.
 
@@ -215,7 +215,7 @@ W skrócie opiszę wszystkie znaczące biegi tego roku. O samym biegu na 42km m�
 - Półmaraton - to jeden z celów postanowionych w listopadzie, że do końca roku chcę pobiec wszystkie klasyczne dystanse. Pobiegliśmy ten bieg jako koty i wykręciliśmy czas **1:40:28** ze średnim tempem **4:45min/km**. Uważam to za bardzo dobry wynik - to był świetny effort.
 - 5k - nie wiedząc do końca, jakiego tempa mogę od siebie oczekiwać na tym dystansie, rzuciłem propozycję, żeby spróbować pobiec 5km poniżej 20 minut. Patrząc na moje dotychczasowe osiągnięcia na tym dystansie, to na początku roku na Poznańskim parkrunie, na którym prawie wyplułem flaki, nie zszedłem poniżej tempa 5:00. Co gorsza, tamten parkrun to nie jest nawet pełne 5km. Mimo to wiedziałem, ile pracy włożyłem na przestrzeni ostatnich miesięcy i chciałem zobaczyć, czy jesteśmy w stanie to zrobić. I tak w **19 minut i 45** sekund udało nam się pokonać ten dystans - tym samym osiągnąłem pewien biegacki milestone **sub 20 5k**.
 
-![Group 2.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/610b0055-6838-43af-88da-7fb31fabec52/Group_2.png)
+![Group 2.png](/images/p-9.png)
 
 ## Praca
 
@@ -225,7 +225,7 @@ Praca, w ogólnym pojęciu, to inny ważny aspekt mojego życia. W tym roku nauc
 
 W 2023 nagrałem **12 filmów** na temat programowania aplikacji internetowych. Wszystkie te produkcje osiągnęły łącznie niecałe **40 tysięcy wyświetleń**, a najbardziej popularny film został odtworzony ponad **25 tysięcy razy**. Mimo wszystko, to nie z tych liczb jestem najbardziej dumny - najbardziej cieszy mnie, ilu osobom udało mi się pomóc dzięki tym materiałom. Pod tymi materiałami znalazło się ponad **160 komentarzy**. Ta platforma drzemie w sobie spory potencjał dla mnie jako twórcy, ale w tym roku chciałbym bardziej skupić się na formach pisanych. Być może postanowię poświęcić pewien blok czasu na to, aby dać sobie szansę, jednak na ten moment ponownie zawieszam swoje YouTuberstwo.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f44e46c9-58f5-44d0-b045-54c82943d92d/fd4c76cb-5978-4a73-adfa-c617475a3098/Untitled.png)
+![Untitled](/images/p-10.png)
 
 ### Blog
 

@@ -13,14 +13,14 @@ export const Footer = () => {
      <h3 className="text-2xl font-bold mb-4">Totalne Koty 🦁</h3>
 
      <div className="flex justify-center items-center">
-      <div className="flex space-x-4 mb-6">
+      {/* <div className="flex space-x-4 mb-6">
        <Link className="text-orange-500 hover:underline" href="/o-nas">
         O nas
        </Link>
        <Link className="text-orange-500 hover:underline" href="/kontakt">
         Kontakt
        </Link>
-      </div>
+      </div> */}
      </div>
      <div className="flex flex-col md:flex-row items-center justify-between">
       <p className="text-sm text-gray-600">
