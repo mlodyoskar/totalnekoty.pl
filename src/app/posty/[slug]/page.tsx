@@ -2,8 +2,21 @@ import { BlogCard } from "@/components/blog-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Image } from "@/components/ui/image";
 import { Slug, getPost } from "@/content/posts";
+import { Metadata, ResolvingMetadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import Link from "next/link";
+
+export async function generateMetadata({ params, searchParams }: Props, parent: ResolvingMetadata): Promise<Metadata> {
+ const slug = params.slug;
+
+ const post = getPost(slug);
+
+ return {
+  title: `${post.title} | Totalne Koty`,
+  //   openGraph: {
+  //    images: ["/some-specific-page-image.jpg", ...previousImages],
+  //   },
+ };
+}
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
  const post = getPost(params.slug);

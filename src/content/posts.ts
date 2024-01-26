@@ -29,7 +29,8 @@ export const posts = [
   slug: "podsumowanie-roku-2023",
   date: "7 stycznia 2024",
   content: third,
-  shortDescription: "Jak zacząłem biegać?",
+  shortDescription:
+   "2023 to najlepszy rok w moim życiu. Mam szczerą nadzieję, że będę mógł tak napisać co roku w każdym moim podsumowaniu, że każdy kolejny będzie po prostu lepszy od poprzedniego. Ten na pewno taki był i mogę to powiedzieć bez najmniejszego zawahania.",
   image: {
    src: "/images/podsumowanie.png",
    alt: "Placeholder",

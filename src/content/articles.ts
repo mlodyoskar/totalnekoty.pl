@@ -45,11 +45,11 @@ Sprawa wygląda tak samo jeśli wyznaczysz sobie cel który jest nierealistyczny
 
 ## Cel musi być zgodny z Tobą
 
-Wyobraź sobie, że w życiu cenisz sobie spokój, bezpieczeństwo i czas spędzony z bliskimi. Czy w takim razie dobrym pomysłem byłoby obranie sobie za cel rzecz, która w żaden sposób nie przybliży Cię do tych wartości? **Moim zdaniem nie**.
+Wyobraź sobie, że w życiu cenisz sobie spokój, bezpieczeństwo i czas spędzony z bliskimi. Czy w takim razie dobrym pomysłem byłoby obranie sobie za cel rzeczy, która w żaden sposób nie przybliży Cię do tych wartości? **Moim zdaniem nie**.
 
-Tym samym przechodzimy do tematu **cenionych wartości** - czyli wedlug mnie fundamentu wokół którego warto wyznaczać swoje cele. W ten sposób łatwiej jest wyznaczyć cele, które będą tak naprawdę nasze, a nie czyjeś. Tym samym łatwiej będzie nam w nich wytrwać nawet w trudniejszych chwilach.
+Tym samym przechodzimy do tematu **cenionych wartości** - czyli według mnie fundamentu wokół którego warto wyznaczać swoje cele. W ten sposób łatwiej jest wyznaczyć cele, które będą tak naprawdę nasze, a nie czyjeś. Tym samym łatwiej będzie nam w nich wytrwać nawet w trudniejszych chwilach.
 
-Tak właśnie podszedłem do tematu w tym roku. Usiadłem przed pustą stroną i dałem sobie dobre 30 minut na wypisanie i próbie poukładnia sobie w głowie jakie są moje główne wartości. Nie takie, które chciałbym żeby były, tylko takie, które **naprawdę cenie**. 
+Tak właśnie podszedłem do tematu w tym roku. Usiadłem przed pustą stroną i dałem sobie dobre 30 minut na wypisanie i próbę poukładnia sobie w głowie jakie są moje główne wartości. Nie takie, które chciałbym żeby były, tylko takie, które **naprawdę cenie**. 
 
 Odpowiedziałem sobie na 3 główne pytania:
 
@@ -102,15 +102,15 @@ Jeśli jednak masz zamiar podzielić się swoimi celami z innymi to przemyśl z 
 
 ## Działaj.
 
-Pamiętaj że żaden plan, najlepszy proces czy aplikacja nie zastąpi Ci **działania**. Określ sobie cele, stwórz plan działania i wykonuj go konsekwentnie. Ciesz się z **samego procesu**, nie licz na szybkich efektach ani nie skupiaj się na końcu drogi - myśl o następnym kilogramie do schudnięcia, o kolejnym kilometrze do przebiegnięcia, czy kolejnych 100zł zaoszczędzonych co miesiąc.
+Pamiętaj że żaden plan, najlepszy proces czy aplikacja nie zastąpi Ci **działania**. Określ sobie cele, stwórz plan działania i wykonuj go konsekwentnie. Ciesz się z **samego procesu**, nie licz na szybkie efekty ani nie skupiaj się na końcu drogi - myśl o następnym kilogramie do schudnięcia, o kolejnym kilometrze do przebiegnięcia, czy kolejnych 100zł zaoszczędzonych co miesiąc.
 
 ### Regularnie weryfikuj swój plan
 
 Zaplanuj w swoim kalendarzu cykliczne spotkanie, najlepiej raz w tygodniu gdzie podsumujesz czy zmierzasz w dobrym kierunku. Być może musisz zmienić minimalnie swoją strategię? 
 
-Mam nadzieję że ten wpis był dla Ciebie **wartościowy**. Jeśli tak było podziel się nim z kimś! Podobnie jeśli podoba Ci się to co robimy wspomnij o nas innym, a my będziemy dalej tworzyć treści które uważamy za pomocne i inspirujące dla innych. 
+Mam nadzieję że ten wpis był dla Ciebie **wartościowy**. Jeśli tak było, podziel się nim z kimś! Podobnie jeśli podoba Ci się to co robimy wspomnij o nas innym, a my będziemy dalej tworzyć treści które uważamy za pomocne i inspirujące dla innych. 
 
-Do usłyszenia w kolejnym tygdoniu 👋
+Do usłyszenia w kolejnym tygodniu 👋
 `;
 
 export const third = `
