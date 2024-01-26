@@ -50,7 +50,7 @@ export const posts = [
   content: first,
   shortDescription: "Jak zacząłem biegać?",
   image: {
-   src: "/images/bieganie.jpeg",
+   src: "/images/bieganie.png",
    alt: "Placeholder",
   },
   author: {
@@ -63,7 +63,7 @@ export const posts = [
  },
  {
   id: 2,
-  title: "Jak zaplanowałem nowy rok",
+  title: "Jak zaplanować nowy rok i wyznaczać cele?",
   slug: "jak-zaplanowalem-nowy-rok",
   date: "25 stycznia 2024",
   shortDescription:

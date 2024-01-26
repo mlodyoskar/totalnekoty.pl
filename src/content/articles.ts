@@ -29,27 +29,27 @@ Uczucie jakie towarzyszy przekraczaniu własnych granic i podbijania swoich czas
 `;
 
 export const second = `
-Nowy rok to idealny moment na postawienie sobie celów, do których będziemy dążyć. Sam od paru lat ustalam sobie cele, z większą lub mniejszą skutecznością. Na przestrzeni ostatnich lat wielokrotnie zmieniałem sposób w jaki podchodziłem do wyznaczania celów i myślę że każdy kolejny rok pozwalał mi realizować coraz więcej. 
+Nowy rok to idealny moment na postawienie sobie celów, do których będziemy dążyć. Sam od paru lat ustalam sobie cele, z większą lub mniejszą skutecznością. Na przestrzeni ostatnich lat wielokrotnie zmieniałem sposób w jaki podchodziłem do wyznaczania celów i myślę, że każdy kolejny rok pozwalał mi realizować coraz więcej. 
 
-Dziś chciałbym podzielić się z Tobą metodami które sam stosuje i które w większości poznałem od ludzi mądrzejszych od siebie. Podzielę się z Tobą **procesami** jak i materiałami na których bazuję swoje planowanie. 
+Dziś chciałbym podzielić się z Tobą metodami, które sam stosuje i które w większości poznałem od ludzi mądrzejszych od siebie. Podzielę się z Tobą **procesami** jak i **materiałami,** na których bazuję swoje planowanie. 
 
 ## Jak nie wyznaczać celów?
 
-Jeśli jesteś jak większość ludzi to najprawdopodobniej wyznaczyłeś sobie kiedyś jakiś cel i niezrealizowałeś go. Być może nawet większość Twoich celów kończy się fiaskiem.
+Jeśli jesteś jak większość ludzi to najprawdopodobniej wyznaczyłeś sobie kiedyś jakiś cel i nie zrealizowałeś go. Być może nawet większość Twoich celów kończy się niepowodzeniem.
 
-Nie bez powodu statystyki wśród AAmerykanów mówią że 23% ludzi porzucają swoje cele w pierwszym tygodniu, a 43% nie wytrzymuje w postanowieniach od końca stycznia. Te statytyki mówią nam tyle że jeśli chcemy osiągnąć swoje cele to nie możemy postępować tak jak większość ludzi, bo patrząc na statysyki wygląda to miernie.
+Nie bez powodu statystyki wśród Amerykanów mówią że 23% ludzi porzucają swoje cele w **pierwszym tygodniu**, a 43% nie wytrzymuje w postanowieniach do końca stycznia. Te statytyki mówią nam tyle, że jeśli chcemy osiągnąć swoje cele to nie możemy postępować tak jak większość ludzi, bo patrząc na statystyki wygląda to miernie.
 
-Wielokrotnie ustalamy swoje cele na podstawie tego że dowiedzieliśmy się że ktoś inny ma taki cel, bez dluższego zastanowienia czy w naszym przypadku ma on sens - przecież wszyscy jesteśmy różni. Sam jestem tego przykładem - rok temu postawiłem sobie za cel określoną kwotę dochodów tylko dlatego że mój rówieśnik na discordzie napisał że tyle zarabia. Czy to ma sens? Czy nie powinienem podejść do tego bardziej realistycznie i podjąć decyzję na podstawie tego ile naprawdę potrzebuję zarabiać według moich potrzeb?
+Często ustalamy swoje cele na podstawie tego, że dowiedzieliśmy się że ktoś inny ma taki cel, bez dłuższego zastanowienia czy w naszym przypadku ma on sens - przecież **wszyscy jesteśmy różni**. Sam jestem tego przykładem - rok temu postawiłem sobie za cel określoną kwotę dochodów tylko dlatego że mój rówieśnik na discordzie napisał że tyle zarabia. Czy to ma sens? Czy nie powinienem podejść do tego bardziej realistycznie i podjąć decyzję na podstawie tego ile naprawdę potrzebuję zarabiać według moich potrzeb?
 
-Sprawa wygląda tak samo jeśli wyznaczysz sobie cel który jest nierealistyczny. Wiem że to fajnie brzmi i przez pierwsze dni czujemy ogromną motywację do działania, jednak jeśli ten cel wymaga od Ciebie konsekwencji to ta motywacja to za mało. Według mnie z wyznaczaniem celów jest tak samo jak z nauką nowych rzeczy - powinniśmy oscylować na krawędzi. Cel powinien być osiągalny, ale nie może być zbyt łatwy, tak samo jak materiał do przyswojenia musi wykraczać trochę poza nasze kompoetencje, a równocześnie nie być czymś co doskonale znamy - w taki sposób nie możemy mówić o rozwoju.
+Sprawa wygląda tak samo jeśli wyznaczysz sobie cel który jest nierealistyczny. Wiem, że to fajnie brzmi i przez pierwsze dni czujemy **ogromną motywację** do działania, jednak jeśli ten cel wymaga od Ciebie konsekwencji to ta motywacja to za mało. Według mnie z wyznaczaniem celów jest tak samo jak z nauką nowych rzeczy - powinniśmy oscylować na krawędzi. Cel powinien być osiągalny, ale nie może być zbyt łatwy, tak samo jak materiał do przyswojenia musi wykraczać trochę poza nasze kompetencje, a równocześnie nie być czymś, co doskonale znamy - w taki sposób nie możemy mówić o **rozwoju**.
 
 ## Cel musi być zgodny z Tobą
 
-Wyobraź sobie że w życiu cenisz sobie spokój, bezpieczeństwo i czas spędzony z bliskimi. Czy w takim razie dobrym pomysłem byłoby obranie sobie za cel rzeczy która w żaden sposób nie przybliży Cię do tych wartości? Moim zdaniem nie.
+Wyobraź sobie, że w życiu cenisz sobie spokój, bezpieczeństwo i czas spędzony z bliskimi. Czy w takim razie dobrym pomysłem byłoby obranie sobie za cel rzecz, która w żaden sposób nie przybliży Cię do tych wartości? **Moim zdaniem nie**.
 
-Tym samym przechodzimy do tematu **cenionych wartości** - czyli wedlug mnie fundamentu wokół którego warto wyznaczać swoje cele. W ten sposób łatwiej jest wyznaczyć cele które będą tak naprawdę nasze, a nie kogoś. Tym samym łatwiej będzie nam w nich wytrwać nawet w trudniejszych chwilach.
+Tym samym przechodzimy do tematu **cenionych wartości** - czyli wedlug mnie fundamentu wokół którego warto wyznaczać swoje cele. W ten sposób łatwiej jest wyznaczyć cele, które będą tak naprawdę nasze, a nie czyjeś. Tym samym łatwiej będzie nam w nich wytrwać nawet w trudniejszych chwilach.
 
-Tak właśnie podszedłem do tematu w tym roku. Usiadłem przed pustą stroną i dałem sobie dobre 30 mninut na wypisaniu i próbie poukładnia sobie w głowie jakie są moje główne wartości. Nie takie które chciałbym żeby były, tylko takie ktorę naprawdę cenie. 
+Tak właśnie podszedłem do tematu w tym roku. Usiadłem przed pustą stroną i dałem sobie dobre 30 minut na wypisanie i próbie poukładnia sobie w głowie jakie są moje główne wartości. Nie takie, które chciałbym żeby były, tylko takie, które **naprawdę cenie**. 
 
 Odpowiedziałem sobie na 3 główne pytania:
 
@@ -57,58 +57,60 @@ Odpowiedziałem sobie na 3 główne pytania:
 - Co cenisz w życiu, jakie są Twoje wartości?
 - Jak chcesz się czuć każdego dnia, co daje Ci satysfakcję?
 
-Nie wchodząc w szczegóły doszedłem do wnioski że bardzo cenie sobie w życiu **bezpieczeństwo**, **szczęście bliskich** i poczucie że robię coś **wartościowego**.
+Nie wchodząc w szczegóły doszedłem do wniosku, że bardzo cenie sobie w życiu **bezpieczeństwo**, **szczęście bliskich** i poczucie, że robię coś **wartościowego**.
 
-Może Wam się to wydawać że to takie prostackie, ale oprócz tego doszedłem do paru innych wniosków - naprawdę polecam wylać te myśli na papier.
-
-Wokół tego możesz zaplanować takie cele które będą wspierać Twoje podstawowe wartości, to naprawdę ważne.
+Może Ci się to wydawać, że to takie prostackie, też tak pomyślałem zanim tego nie zrobiłem. Oprócz tego doszedłem do paru innych wniosków - naprawdę polecam wylać te myśli na papier. Wokół tego możesz zaplanować takie cele, które będą wspierać Twoje podstawowe wartości, to naprawdę ważne.
 
 ### Motywacja zewnętrzna vs wewnętrzna
 
 Możemy też rozróżnić naszą motywację do osiągnięcia tych celów na wewnętrzną i zewnętrzną. Przykłady motywacji zewnętrznej to wyższy status, nowy samochód, czy rywalizacja z innymi. 
 
-Przykładami motywacji wewnętrznej mogą być właśnie rzeczy które wynikają z tego jakie wartości cenisz w życiu jak pasja, poczucie realizacji swojego “przeznaczenia” czy po prostu to co Cię ciekawi w życiu.
+Przykładami motywacji wewnętrznej mogą być właśnie rzeczy, które wynikają z tego jakie wartości cenisz w życiu jak pasja, poczucie realizacji swojego “przeznaczenia” czy po prostu to, co Cię ciekawi w życiu.
 
 Wiele badań wskazuje na to że osoby kierujące się motywacją wewnętrzą outperformują tę drugą grupę w długim okresie. Tutaj cytat z jednego badania na ten temat:
 
-> Przez ostatnie cztery dziesięciolecia eksperymentalne badania prowadzone zgodnie z teorią samostanowienia wykazały, że wewnętrzna motywacja przewiduje zwiększone wyniki w uczeniu się, większą kreatywność, optymalny rozwój i dobre samopoczucie psychiczne. ([źródło](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5364176/))
+> Przez ostatnie cztery dziesięciolecia eksperymentalne badania wykazały, że wewnętrzna motywacja powoduje zwiększone wyniki w uczeniu się, większą kreatywność, optymalny rozwój i dobre samopoczucie psychiczne. ([źródło](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5364176/))
 > 
 
 ## Wiem już co chce osiągnąć, ale jak to zrobić?
 
-Wiesz już że jeśli cel ten jest długotrwały i będzie wymagał wielokrotnego przecierania się przez “opór” kiedy nie będzie Ci się chciało nie możesz zdawać się tylko na dyscyplinę czy motywację.
+Wiesz już, że jeśli cel ten jest długotrwały i będzie wymagał wielokrotnego przecierania się przez **“opór”** kiedy nie będzie Ci się chciało nie możesz zdawać się tylko na dyscyplinę czy motywację.
 
-Według mnie najefektywniejszy sposób na pozostawanie w swoich celach to kreowanie **nawyków** które zaprwaodzą Cię do nich. Jest to też związane z podejściem ze lepiej nie skupiać się bardzo na samym celach - lepiej skupić się na **kierunku** który do nich prowadzi.
+Według mnie najefektywniejszy sposób na pozostawanie w swoich celach to kreowanie **nawyków** które zaprowadzą Cię do nich. Jest to też związane z podejściem, że zamiast skupiać się bardzo na samym celach - lepiej skupić się na **kierunku,** który do nich prowadzi.
 
-Isnieje świetna książką pt. “Atomic Habits” autorsta James’a Cleara. Opowiada ona o kreowaniu nowych nawyków i zastępowaniu nimi tych których chcemy się pozbyć. Nie mam zamiaru pisać dziś o mechnizmach jakie zachodzą w procesie wytwarzaniu nawyku, ale jego siła w połączeniu z efektem składowanym daje niesamowite rezultaty. 
+"Atomowe nawyki", autorstwa James'a Clear’a, to świetna książka opowiadająca o kreowaniu nowych nawyków i zastępowaniu nimi tych, których chcemy się pozbyć. Nie będę pisać dziś o mechanizmach jakie zachodzą w procesie wytwarzania nawyku, ale pamiętaj jego siła w połączeniu z efektem składowanym daje niesamowite rezultaty. 
 
-Wciąż potrzeba sporych zasobów silnej woli i chęci, ale w ten sposób zdecydowanie ułatwiamy sobie zadanie - zwłaszcza po wykreowaniu w sobie nawyku. Proces ten potrafi zająć od 18 do 254 dni. **Przejdźmy jednak do konkretów**.
+Wciąż potrzeba jednak sporych zasobów silnej woli i chęci, ale w ten sposób zdecydowanie ułatwiamy sobie zadanie - zwłaszcza po wykreowaniu w sobie nawyku. Badania mówią, że ten proces potrafi zająć od 18 do 254 dni. **Przejdźmy jednak do konkretów**.
 
-1. Wybierz maksymalnie 6 nawyków które chcesz wprowadzić w swoje życie na raz. Staraj się realizować jednak tylko 4 dziennie. Pozwoli to niezniechęcać się jeśli nie uda Ci się osiągnąć wszystkich, a jak wiesz z doświadczenia - łatwo się zniechęcić
-2. Praktykuj te nawyki przez przynajmniej 18-21 dni. Wiele badań mówi o różnych okresach utrwalania nawyku, ale wytrwaj w tym i nie poddawaj się.
+1. Wybierz maksymalnie **6 nawyków** które chcesz wprowadzić w swoje życie na raz. Staraj się realizować jednak tylko **4 dziennie**. Pozwoli to nie zniechęcać się jeśli nie uda Ci się osiągnąć wszystkich, a jak wiesz z doświadczenia - łatwo się zniechęcić
+2. Praktykuj te nawyki przez przynajmniej **18-21 dni**. Wiele badań mówi o różnych okresach utrwalania nawyku, ale wytrwaj w tym i nie poddawaj się.
 3. Spisz swoje nawyki i kontroluj je. Może to być kartka papieru, notatnik w telefonie lub specjalna aplikacja, jednak nie pozostawiaj tego tylko w głowie.
 
-Ja wykorzystałem do śledzenia moich nawyków specjalnej [aplikacji](https://www.awesome-habits.com/). Zależało mi głównie na tym żebym miał na głównym ekranie oraz ekranie blokady widget który przypomina mi o wykonaniu danej rzeczy.
+Ja wykorzystałem do śledzenia moich nawyków specjalnej aplikacji o nazwie [Awasome Habits](https://www.awesome-habits.com/). Zależało mi głównie na tym, żebym miał na głównym ekranie oraz ekranie blokady widget, który przypomina mi o wykonaniu danej rzeczy.
 
 ![screen.png](/images/screen.png)
 
-Jak widać moim głównym celem powiązanym z bezpieczeństwem jest to żeby ogarnąć swoje finanse - pozyskać wiedzę oraz zbudować poduszkę finansową. Żeby osiągnąć ten cel próbuję u siebie wykreować nawyk *15 minut na finanse dziennie*. W tym czasie wypełniam i śledzę swój budżet domowy, czytam “Finansowego Ninje” czy blogi o tematyce finansów osobistych.
+Jak widać moim głównym celem powiązanym z **bezpieczeństwem** jest to żeby ogarnąć swoje finanse - pozyskać wiedzę oraz zbudować poduszkę finansową. Żeby osiągnąć ten cel próbuję u siebie wykreować nawyk *15 minut na finanse dziennie*. W tym czasie wypełniam i śledzę swój budżet domowy, czytam książki i blogi o tej tematyce.
 
-### Powiedz wszystkim o swoich celach. A może nie?
+### Nie mów innym o swoich celach
 
-Na pewno usłyszałeś kiedyś żeby powiedzieć innym o swoich celach. Dr. Andrew Huberman w swoim podcaście tłumaczy że nie jest to najlepszy pomysł.
+Na pewno usłyszałeś kiedyś, żeby powiedzieć innym o swoich celach. Dr. Andrew Huberman w [swoim podcaście](https://www.hubermanlab.com/podcast) tłumaczy, że nie jest to najlepszy pomysł.
 
-Po pierwsze to narzucasz w ten sposób na siebie presję oraz stres, który niekoniecznie pomoże CI utrzymać się w swoich postanowieniach. Jednak, według mnie zdecydowanie większym zagrożeniem jest utrata motywacji kiedy nasz pomysł dostanie sporą aprobatę wśród ludzi. To normalne że kiedy dzielisz się celami z innymi to chcą Cię podnieść na duchu, jednak może to doprowadzić do sytuacji gdzie poczujesz walidacje i zadowolenie choć tak naprawdę nie wykonałeś żadnej akcji.
+Po pierwsze to narzucasz w ten sposób na siebie presję oraz stres, który niekoniecznie pomoże Ci utrzymać się w swoich postanowieniach. Jednak, według mnie zdecydowanie większym zagrożeniem jest **utrata motywacji** kiedy nasz pomysł dostanie sporą aprobatę wśród ludzi. To normalne, że kiedy dzielisz się celami z innymi to chcą Cię podnieść na duchu, jednak może to doprowadzić do sytuacji gdzie poczujesz walidacje i zadowolenie choć tak naprawdę nie wykonałeś żadnej akcji. 
 
-Jeśli jednak masz zamiar podzielić się swoimi celami z innymi to przemyśl z kim masz zamiar się nimi podzielić, na pewno nie chcesz żeby ktoś podciął Ci skrzydła.
+Jeśli jednak masz zamiar podzielić się swoimi celami z innymi to przemyśl z kim masz zamiar się nimi podzielić, na pewno nie chcesz, żeby ktoś **podciął Ci skrzydła**.
 
 ## Działaj.
 
-Pamiętaj że żaden plan, najlepszy proces czy aplikacja nie zastąpi Ci działania. Określ sobie cele, stwórz plan działania i wykonuj go konsekwentnie. Ciesz się z samego procesu, nie licz na szybkich efektach ani nie skupiaj się na końcu drogi - myśl o następnym kilogramie do schudnięcia, o kolejnym kilometrze do przebiegnięcia, czy kolejnym 100zł zaoszcędzonym co miesiąc. 
+Pamiętaj że żaden plan, najlepszy proces czy aplikacja nie zastąpi Ci **działania**. Określ sobie cele, stwórz plan działania i wykonuj go konsekwentnie. Ciesz się z **samego procesu**, nie licz na szybkich efektach ani nie skupiaj się na końcu drogi - myśl o następnym kilogramie do schudnięcia, o kolejnym kilometrze do przebiegnięcia, czy kolejnych 100zł zaoszczędzonych co miesiąc.
 
 ### Regularnie weryfikuj swój plan
 
-Zaplanuj w swoim kalendarzu cykliczne spotkanie, najlepiej raz w tygodniu gdzie podsumujesz czy zmierasz w dobrym kierunku. Być może musisz zmienić minimalnie swoją strategię?
+Zaplanuj w swoim kalendarzu cykliczne spotkanie, najlepiej raz w tygodniu gdzie podsumujesz czy zmierzasz w dobrym kierunku. Być może musisz zmienić minimalnie swoją strategię? 
+
+Mam nadzieję że ten wpis był dla Ciebie **wartościowy**. Jeśli tak było podziel się nim z kimś! Podobnie jeśli podoba Ci się to co robimy wspomnij o nas innym, a my będziemy dalej tworzyć treści które uważamy za pomocne i inspirujące dla innych. 
+
+Do usłyszenia w kolejnym tygdoniu 👋
 `;
 
 export const third = `
