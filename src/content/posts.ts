@@ -49,7 +49,7 @@ export const posts = [
   slug: "dlaczego-zaczalem-biegac",
   date: "19 stycznia 2024",
   content: first,
-  shortDescription: "Jak zacząłem biegać?",
+  shortDescription: "Mój początek biegania",
   image: {
    src: "/images/bieganie.png",
    alt: "Placeholder",

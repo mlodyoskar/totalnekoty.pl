@@ -45,9 +45,10 @@ export const BlogCard = ({ date, image, slug, title, shortDescription, featured,
        <AvatarImage src={author.image.src} className="object-cover" alt={author.name} />
        <AvatarFallback>{avatarFallback}</AvatarFallback>
       </Avatar>
-      <Link href={`/o-nas#${author.slug}`} className="text-sm font-semibold hover:underline">
+      <p className="text-sm font-semibold">{author.name}</p>
+      {/* <Link href={`/o-nas#${author.slug}`} className="text-sm font-semibold hover:underline">
        {author.name}
-      </Link>
+      </Link> */}
      </div>
      <Link href={blogLink} className="mt-4 group text-sm font-semibold text-orange-500 hover:underline flex gap-2 items-center">
       Czytaj dalej <ArrowRightIcon />
