@@ -1,14 +1,15 @@
+import { getArticleBySlug } from "@/api/articles/getArticleBySlug";
 import { BlogCard } from "@/components/blog-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Image } from "@/components/ui/image";
-import { Slug, getPost } from "@/content/posts";
 import { Metadata, ResolvingMetadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import NextImage from "next/image";
+
 export async function generateMetadata({ params }: { params: { slug: string } }, parent: ResolvingMetadata): Promise<Metadata> {
  const slug = params.slug;
 
- const post = getPost(slug);
+ const post = await getArticleBySlug(slug);
 
  if (!post) {
   return {
@@ -25,9 +26,8 @@ export async function generateMetadata({ params }: { params: { slug: string } },
  };
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
- const post = getPost(params.slug);
-
+export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+ const post = await getArticleBySlug(params.slug);
  if (!post) {
   return null;
  }
@@ -37,14 +37,14 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
    <h1 className="text-3xl font-bold">{post.title}</h1>
 
    <div className="mx-auto mt-8 mb-4">
-    <Image alt={post.image.alt} height="300" src={post.image.src} width="720" />
+    <Image alt={post.thumbnail.alternativeText} height="300" src={post.thumbnail.url} width="720" />
    </div>
 
    <div className="prose ">
     <MDXRemote
      components={{
       //@ts-ignore
-      img: (props) => <NextImage alt={props.alt || ""} width={720} height={400 as number} {...props} />,
+      img: (props) => <NextImage alt={props.alt || ""} width={720} height={400} {...props} />,
      }}
      source={post.content}
     />
