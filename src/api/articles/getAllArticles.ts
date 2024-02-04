@@ -50,7 +50,7 @@ query GetAllAcrticles {
 }
 `;
 
-type Article = {
+export type Article = {
  id: string;
  attributes: {
   Title: string;
@@ -91,8 +91,6 @@ type Image = {
 const fetchAllArticles = async () => {
  const res = await fetch(`${process.env.STRAPI_CMS_URL}`, {
   method: "POST",
-  // Do usunięcia przy budowaniu
-  cache: "no-store",
   headers: {
    "Content-Type": "application/json",
    Authorization: `Bearer ${process.env.STRAPI_CMS_TOKEN}`,
@@ -107,13 +105,12 @@ const fetchAllArticles = async () => {
 
 export const getAllArticles = async () => {
  const articles = await fetchAllArticles();
- console.log(articles.data[0].attributes);
+
  return articles.data.map((article) => {
   return {
    id: article.id,
    title: article.attributes.Title,
    slug: article.attributes.slug,
-   //    content: article.dataattributes.Content,
    date: article.attributes.Date,
    shortDescription: article.attributes.Short_decsription,
    thumbnail: article.attributes.Thumbnail.data.attributes,

@@ -1,6 +1,5 @@
-import { getAllArticles } from "@/api/articles/articles";
+import { getAllArticles } from "@/api/articles/getAllArticles";
 import { BlogCard } from "@/components/blog-card";
-import { getAllPosts } from "@/content/posts";
 
 export default async function HomePage() {
  const posts = await getAllArticles();
@@ -38,7 +37,7 @@ export default async function HomePage() {
       featured={false}
       title={title}
       shortDescription={shortDescription}
-      slug={"test"}
+      slug={slug}
       date={date}
       image={{ src: thumbnail.url, alt: thumbnail.alternativeText }}
      />
