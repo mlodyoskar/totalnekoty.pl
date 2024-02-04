@@ -56,6 +56,7 @@ const fetchArticleBySlug = async (slug: string) => {
  const query = GetArticleBySlug(slug);
  const res = await fetch(`${process.env.STRAPI_CMS_URL}`, {
   method: "POST",
+  next: { revalidate: 30 },
   headers: {
    "Content-Type": "application/json",
    Authorization: `Bearer ${process.env.STRAPI_CMS_TOKEN}`,
