@@ -3,7 +3,28 @@ import { Card, CardContent } from "./ui/card";
 import { Image } from "./ui/image";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Author } from "@/content/posts";
+
+interface Post {
+ id: number;
+ title: string;
+ slug: string;
+ date: string;
+ shortDescription: string;
+ content: string;
+ image: {
+  src: string;
+  alt: string;
+ };
+ author: Author;
+}
+
+export interface Author {
+ name: string;
+ slug: string;
+ image: {
+  src: string;
+ };
+}
 
 interface Props {
  title: string;
