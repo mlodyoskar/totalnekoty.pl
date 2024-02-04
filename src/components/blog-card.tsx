@@ -58,22 +58,3 @@ export const BlogCard = ({ date, image, slug, title, shortDescription, featured,
   </div>
  );
 };
-
-{
- /* <div className="grid grid-cols-1 mb-8 md:grid-cols-2 md:gap-16  items-center">
-    <Image alt="Featured article" height="400" src="/placeholder.svg" width="640" />
-    <div>
-     <p className="text-xs mt-4 text-gray-600">20 stycznia 2024 • 6 min czytania</p>
-
-     <h2 className=" text-2xl font-bold">Najważniejsze lekcje z książki "Finansowy Ninja"</h2>
-     <p className="mt-4 text-gray-700 text-sm">
-      Buty do codziennego biegania z bardzo dużą amortyzacją - przegląd wiosna 2024 Uniwersalność, to słowo klucz, które najlepiej opisuje te buty. To
-      najbardziej wszechstronne buty do biegania przede wszystkim po twardych, głównie miejskich nawierzchniach. Jednocześnie przyzwyczajone poradzą
-      sobie też z wygodnego asfaltu zbiegiesz na szutrowe drogi. Doskonale sprawdzają się zarówno podczas codziennych, spokojnych treningów, jak i
-      podczas treningów o większej intensywności.
-     </p>
-     <Link href="/posts/asd" className="mt-4 text-sm font-semibold text-orange-500 hover:underline flex gap-2 items-center">
-      Czytaj dalej <ArrowRightIcon />
-     </Link>
-    </div> */
-}

@@ -1,18 +1,47 @@
+import { getAllArticles } from "@/api/articles/articles";
 import { BlogCard } from "@/components/blog-card";
 import { getAllPosts } from "@/content/posts";
 
-export default function HomePage() {
- const allPosts = getAllPosts();
- const featuredPost = allPosts[0];
+export default async function HomePage() {
+ const posts = await getAllArticles();
+ const sortedPosts = posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+ const [featuredPost, ...restPosts] = sortedPosts;
 
  return (
   <div className="max-w-6xl m-auto p-2 md:p-0 grid">
    <div className="mb-16">
-    <BlogCard featured {...featuredPost} />
+    <BlogCard
+     {...featuredPost}
+     title={featuredPost.title}
+     slug={featuredPost.slug}
+     shortDescription={featuredPost.shortDescription}
+     date={featuredPost.date}
+     image={{ src: featuredPost.thumbnail.url, alt: featuredPost.thumbnail.alternativeText }}
+     author={{
+      name: featuredPost.author.name,
+      slug: featuredPost.author.slug,
+      image: { src: featuredPost.author.avatar.url },
+     }}
+     featured
+    />
    </div>
+
    <section className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
-    {allPosts.slice(1, 10).map((post) => (
-     <BlogCard key={post.id} featured={false} {...post} />
+    {restPosts.map(({ author, id, date, thumbnail, title, shortDescription, slug }) => (
+     <BlogCard
+      key={id}
+      author={{
+       name: author.name,
+       slug: slug,
+       image: { src: author.avatar.url },
+      }}
+      featured={false}
+      title={title}
+      shortDescription={shortDescription}
+      slug={"test"}
+      date={date}
+      image={{ src: thumbnail.url, alt: thumbnail.alternativeText }}
+     />
     ))}
    </section>
   </div>
