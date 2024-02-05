@@ -3,7 +3,14 @@ import { BlogCard } from "@/components/blog-card";
 
 export default async function HomePage() {
  const posts = await getAllArticles();
- const sortedPosts = posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+ const sortedPosts = posts
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .map((p) => {
+   return {
+    ...p,
+    date: new Date(p.date).toLocaleDateString("pl-PL", { year: "numeric", month: "long", day: "numeric" }),
+   };
+  });
  const [featuredPost, ...restPosts] = sortedPosts;
 
  return (
