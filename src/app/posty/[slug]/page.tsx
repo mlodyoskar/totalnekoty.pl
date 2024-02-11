@@ -33,7 +33,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
  }
 
  return (
-  <article className="max-w-2xl mt-8 m-auto p-4 md:p-0 grid">
+  <article className="max-w-2xl mt-8 m-auto p-4 md:p-0">
    <h1 className="text-3xl font-bold">{post.title}</h1>
 
    <div className="mx-auto mt-8 mb-4">
