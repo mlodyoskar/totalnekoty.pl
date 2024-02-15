@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Card, CardContent } from "./ui/card";
 import { Image } from "./ui/image";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import NextImage from "next/image";
 
 interface Post {
  id: number;
@@ -53,7 +53,7 @@ export const BlogCard = ({ date, image, slug, title, shortDescription, featured,
   <div className="@container">
    <div className="w-full items-center grid @sm:grid-cols-1 @lg:gap-16 @lg:grid-cols-2">
     <Link href={blogLink}>
-     <Image alt={image.alt} src={image.src} width={640} height={400} />
+     <Image priority={featured} alt={image.alt} src={image.src} width={640} height={400} />
     </Link>
     <div className="p-0">
      <p className="text-xs my-4 text-gray-600">{date}</p>
@@ -63,7 +63,9 @@ export const BlogCard = ({ date, image, slug, title, shortDescription, featured,
      <p className="mt-4 text-gray-700 text-sm">{shortDescription}</p>
      <div className="flex mt-2 gap-4 items-center">
       <Avatar className="w-8 h-8">
-       <AvatarImage src={author.image.src} className="object-cover" alt={author.name} />
+       <AvatarImage asChild>
+        <NextImage src={author.image.src} className="object-cover" alt={author.name} />
+       </AvatarImage>
        <AvatarFallback>{avatarFallback}</AvatarFallback>
       </Avatar>
       <p className="text-sm font-semibold">{author.name}</p>
