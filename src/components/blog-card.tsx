@@ -63,9 +63,7 @@ export const BlogCard = ({ date, image, slug, title, shortDescription, featured,
      <p className="mt-4 text-gray-700 text-sm">{shortDescription}</p>
      <div className="flex mt-2 gap-4 items-center">
       <Avatar className="w-8 h-8">
-       <AvatarImage asChild>
-        <NextImage src={author.image.src} className="object-cover" alt={author.name} />
-       </AvatarImage>
+       <NextImage src={author.image.src} width={32} height={32} className="object-cover aspect-square h-full w-full" alt={author.name} />
        <AvatarFallback>{avatarFallback}</AvatarFallback>
       </Avatar>
       <p className="text-sm font-semibold">{author.name}</p>

@@ -38,7 +38,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     <Image priority={true} alt={post.thumbnail.alternativeText || ""} height="300" src={post.thumbnail.url} width="720" />
    </div>
 
-   <div className="prose ">
+   <div className="prose max-w-[720px]">
     <MDXRemote
      components={{
       //@ts-ignore
