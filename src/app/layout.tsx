@@ -4,6 +4,7 @@ import { Header } from "@/components/ui/header";
 import clsx from "clsx";
 import { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
  subsets: ["latin"],
@@ -22,14 +23,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
  return (
-  <html lang="en" suppressHydrationWarning className={`${inter.variable} ${lora.variable}`}>
-   <body className="antialiased text-gray-800 h-full ">
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-     <Header />
-     {children}
-    </div>
-    <Footer />
-   </body>
-  </html>
+  <>
+   <html lang="en" suppressHydrationWarning className={`${inter.variable} ${lora.variable}`}>
+    <body className="antialiased text-gray-800 h-full ">
+     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Header />
+      {children}
+     </div>
+     <Footer />
+    </body>
+   </html>
+   <SpeedInsights />
+  </>
  );
 }

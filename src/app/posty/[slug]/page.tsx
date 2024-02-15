@@ -37,7 +37,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
    <h1 className="text-3xl font-bold">{post.title}</h1>
 
    <div className="mx-auto mt-8 mb-4">
-    <Image alt={post.thumbnail.alternativeText} height="300" src={post.thumbnail.url} width="720" />
+    <Image alt={post.thumbnail.alternativeText || ""} height="300" src={post.thumbnail.url} width="720" />
    </div>
 
    <div className="prose ">
