@@ -16,6 +16,7 @@ query GetAllAcrticles {
                             width
                             url
                             previewUrl
+                            alternativeText
                         }
                     }
                 }
