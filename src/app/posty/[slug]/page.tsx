@@ -1,10 +1,10 @@
 import { getArticleBySlug } from "@/api/articles/getArticleBySlug";
 import { Image } from "@/components/ui/image";
-import { Metadata, ResolvingMetadata } from "next";
+import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import NextImage from "next/image";
 
-export async function generateMetadata({ params }: { params: { slug: string } }, parent: ResolvingMetadata): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
  const slug = params.slug;
 
  const post = await getArticleBySlug(slug);
@@ -41,7 +41,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
    <div className="prose max-w-[720px]">
     <MDXRemote
      components={{
-      //@ts-ignore
+      //@ts-expect-error // No idea why this is not working
       img: (props) => <NextImage alt={props.alt || ""} width={720} height={400} {...props} />,
      }}
      source={post.content}

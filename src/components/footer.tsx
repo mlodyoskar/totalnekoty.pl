@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Image } from "./ui/image";
 
 const linkedinLink = "https://www.linkedin.com/in/oskarpuchalski/";
 

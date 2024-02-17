@@ -1,22 +1,8 @@
 import Link from "next/link";
 import { Image } from "./ui/image";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Avatar, AvatarFallback } from "./ui/avatar";
 import NextImage from "next/image";
-
-interface Post {
- id: number;
- title: string;
- slug: string;
- date: string;
- shortDescription: string;
- content: string;
- image: {
-  src: string;
-  alt: string;
- };
- author: Author;
-}
 
 export interface Author {
  name: string;
@@ -40,8 +26,6 @@ interface Props {
 }
 
 export const BlogCard = ({ date, image, slug, title, shortDescription, featured, author }: Props) => {
- const [width, height] = featured ? [640, 400] : [320, 200];
-
  const blogLink = `/posty/${slug}`;
 
  const avatarFallback = author.name
