@@ -2,13 +2,12 @@
  "name": "turbo-basic-shared",
  "version": "0.0.0",
  "private": true,
- "packageManager": "pnpm",
  "workspaces": [
   "apps/*"
  ],
  "scripts": {
-  "build": "turbo run build",
-  "dev": "turbo run dev --parallel & turbo run develop",
+  "build": "turbo build",
+  "dev": "turbo dev ",
   "dev:docker": "docker-compose up -d",
   "lint": "turbo run lint",
   "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -40,6 +39,7 @@
    }
   }
  },
+ "packageManager": "pnpm@8.9.0",
  "engines": {
   "npm": ">=7.0.0",
   "node": ">=14.0.0"
