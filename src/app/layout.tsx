@@ -1,7 +1,6 @@
 import "@/app/globals.css";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/ui/header";
-import clsx from "clsx";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
