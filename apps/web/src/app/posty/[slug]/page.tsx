@@ -1,5 +1,5 @@
-import { getArticleBySlug } from "@/api/articles/getArticleBySlug";
-import { Image } from "@/components/ui/image";
+import { getArticleBySlug } from "../../../api/articles/getArticleBySlug";
+import { Image } from "../../../components/ui/image";
 import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import NextImage from "next/image";

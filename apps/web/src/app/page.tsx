@@ -1,5 +1,5 @@
-import { getAllArticles } from "@/api/articles/getAllArticles";
-import { BlogCard } from "@/components/blog-card";
+import { getAllArticles } from "../api/articles/getAllArticles";
+import { BlogCard } from "../components/blog-card";
 
 export default async function HomePage() {
  const posts = await getAllArticles();
