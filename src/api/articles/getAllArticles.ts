@@ -91,7 +91,7 @@ type Image = {
 
 const fetchAllArticles = async () => {
  const res = await fetch(`${process.env.STRAPI_CMS_URL}`, {
-  cache: "force-cache",
+  next: { revalidate: 60 },
   method: "POST",
   headers: {
    "Content-Type": "application/json",
