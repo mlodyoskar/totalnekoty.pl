@@ -55,7 +55,6 @@ query GetAcrticleBySlug {
 const fetchArticleBySlug = async (slug: string) => {
  const query = GetArticleBySlug(slug);
  const res = await fetch(`${process.env.STRAPI_CMS_URL}`, {
-  cache: "force-cache",
   method: "POST",
   headers: {
    "Content-Type": "application/json",
