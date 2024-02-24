@@ -4,6 +4,7 @@ import { Header } from "../components/ui/header";
 import { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 
 const inter = Inter({
  subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
      </div>
      <Footer />
      <SpeedInsights />
+     <Script defer src="https://analytics.eu.umami.is/script.js" data-website-id="fea752ce-30e6-4fe6-88b4-8280ad72b870" />
     </body>
    </html>
   </>
