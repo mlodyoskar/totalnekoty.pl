@@ -17,7 +17,7 @@ export const generateImage = async (prompt: string) => {
   model: "dall-e-3",
   quality: "standard",
   response_format: "url",
-  size: "1024x1024",
+  size: "1792x1024",
  });
 
  //  const data = [

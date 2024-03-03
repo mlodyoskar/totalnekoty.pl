@@ -16,7 +16,7 @@ export const GeneratedImageDialog = ({ open, onOpenChange, url }: GeneratedImage
     <DialogHeader>
      <DialogTitle>Wygenerowana grafika</DialogTitle>
     </DialogHeader>
-    {url && <Image alt="generated image" src={url} width={1024} height={1024} />}
+    {url && <Image alt="generated image" src={url} width={1792} height={1024} />}
 
     <DialogDescription>
      <Button>Pobierz grafikę</Button>
