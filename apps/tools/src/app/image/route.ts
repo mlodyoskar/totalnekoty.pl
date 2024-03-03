@@ -10,7 +10,7 @@ const openai = new OpenAI({
  apiKey: API_KEY,
 });
 
-export const generateImage = async (prompt: string) => {
+const generateImage = async (prompt: string) => {
  console.log({ prompt });
  const { data } = await openai.images.generate({
   prompt,
