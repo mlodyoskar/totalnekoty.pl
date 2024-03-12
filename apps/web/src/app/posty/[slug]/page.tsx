@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
  if (!post) {
   return {
    title: "Totalne Koty",
-   description: "3 gości którzy są zafiksowani na punkcie rozwoju na wielu płaszczzyznach dzieli się swoimi doświadczeniami i wiedzą.",
+   description: "3 gości zafiksowanych na punkcie rozwoju na wielu płaszczyznach dzieli się swoimi doświadczeniami i wiedzą.",
   };
  }
 
@@ -31,7 +31,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
  }
 
  return (
-  <article className="max-w-2xl mt-8 m-auto p-4 md:p-0">
+  <article className="max-w-3xl mt-8 m-auto p-4 md:p-0">
    <h1 className="text-3xl font-bold">{post.title}</h1>
 
    <div className="mx-auto mt-8 mb-4">
