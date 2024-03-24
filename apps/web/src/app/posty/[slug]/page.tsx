@@ -1,8 +1,17 @@
+import { getAllArticles } from "@/api/articles/getAllArticles";
 import { getArticleBySlug } from "../../../api/articles/getArticleBySlug";
 import { Image } from "../../../components/ui/image";
 import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import NextImage from "next/image";
+
+export async function generateStaticParams() {
+ const posts = await getAllArticles();
+
+ return posts.map((post) => ({
+  slug: post.slug,
+ }));
+}
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
  const slug = params.slug;
@@ -15,12 +24,11 @@ export async function generateMetadata({ params }: { params: { slug: string } })
    description: "3 gości zafiksowanych na punkcie rozwoju na wielu płaszczyznach dzieli się swoimi doświadczeniami i wiedzą.",
   };
  }
-
  return {
   title: `${post.title} | Totalne Koty`,
-  //   openGraph: {
-  //    images: ["/some-specific-page-image.jpg", ...previousImages],
-  //   },
+  openGraph: {
+   images: post.thumbnail.url,
+  },
  };
 }
 
