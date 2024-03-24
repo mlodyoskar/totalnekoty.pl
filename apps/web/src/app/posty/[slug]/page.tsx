@@ -4,6 +4,7 @@ import { Image } from "../../../components/ui/image";
 import { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import NextImage from "next/image";
+import { BlogPostWrapper } from "./blog-post-wrapper";
 
 export async function generateStaticParams() {
  const posts = await getAllArticles();
@@ -41,7 +42,7 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
  }
 
  return (
-  <article className="max-w-3xl mt-8 m-auto p-4 md:p-0">
+  <BlogPostWrapper>
    <h1 className="text-3xl font-bold">{post.title}</h1>
 
    <div className="mx-auto mt-8 mb-4">
@@ -57,6 +58,6 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
      source={post.content}
     />
    </div>
-  </article>
+  </BlogPostWrapper>
  );
 }
