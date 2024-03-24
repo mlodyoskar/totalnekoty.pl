@@ -24,8 +24,10 @@ export async function generateMetadata({ params }: { params: { slug: string } })
    description: "3 gości zafiksowanych na punkcie rozwoju na wielu płaszczyznach dzieli się swoimi doświadczeniami i wiedzą.",
   };
  }
+
  return {
   title: `${post.title} | Totalne Koty`,
+  description: post.shortDescription,
   openGraph: {
    images: post.thumbnail.url,
   },

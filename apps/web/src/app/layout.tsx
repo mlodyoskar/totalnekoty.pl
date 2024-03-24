@@ -13,7 +13,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
  title: "Totalne Koty",
- description: "3 gości którzy są zafiksowani na punkcie rozwoju na wielu płaszczzyznach dzieli się swoimi doświadczeniami i wiedzą.",
+ description: "3 gości zafiksowanych na punkcie rozwoju na wielu płaszczzyznach dzieli się swoimi doświadczeniami i wiedzą.",
+ openGraph: {
+  images: "/images/og-image.png",
+ },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
